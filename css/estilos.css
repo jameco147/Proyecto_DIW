@@ -1,0 +1,55 @@
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .navbar-brand img {
+    width: 200px;
+    height: 77px;
+}
+
+ .navbar .navbar-collapse .nav-link {
+     color: #005385;
+     letter-spacing: 0.1em;
+ }
+
+.jumbotron{
+    background: url("../images/Brutos/muelle.JPG") no-repeat center center;
+    background-size: cover;
+    background-position-y: 60%;
+    height: 25em;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+.jumbotron:after {
+    opacity: 0.3;
+}
+
+
+.jumbotron h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+
+.jumbotron .boton {
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+
+.jumbotron .boton:hover {
+    background: #1ba0ef;
+}
+
+.jumbotron .slogan {
+    color: #fff;
+    font-weight: 400;
+}
