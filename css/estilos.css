@@ -3,6 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*--- Navegador y Jumbotron ---*/
+
 .navbar .navbar-brand img {
     width: 200px;
     height: 77px;
@@ -52,4 +54,65 @@ body {
 .jumbotron .slogan {
     color: #fff;
     font-weight: 400;
+}
+
+/*--- Contenido principal ---*/
+
+.test {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container .principal {
+    margin-top: 65px;
+}
+
+.card h2 {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.card .card-img-top {
+    height:250px;
+}
+
+/* --- PORTAFOLIO --- */
+
+.portafolio {
+    background: #fff;
+    border-top: 5px solid #3da5e2;
+    padding: 0 20px;
+}
+
+.portafolio .titulo {
+    padding: 40px 0;
+    text-align: center;
+    color: #3da5e2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+    background: #3da5e2;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .3;
+}
+
+.portafolio .modal-dialog {
+    margin: 0px auto;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.portafolio .modal-content {
+    width: auto;
 }
