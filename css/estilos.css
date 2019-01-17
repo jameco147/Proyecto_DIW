@@ -130,7 +130,7 @@ main {
 .quienessomos .nombre {
     color: #545454;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 
@@ -141,6 +141,13 @@ main {
     font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
+}
+
+.quienessomos .descripcion{
+    padding: 0 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
 }
 
 
@@ -193,6 +200,15 @@ main {
 
 .formulario .boton:hover {
     background: #1ba0ef;
+}
+
+/* --- SLIDER ---*/
+.slider {
+    margin-bottom: 40px;
+}
+
+.slider .col {
+    padding: 0;
 }
 
 
