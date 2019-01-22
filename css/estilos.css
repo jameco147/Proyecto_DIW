@@ -1,13 +1,14 @@
 body {
     background: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden !important;
 }
 
 .container {
     overflow-x: hidden !important;
 }
 
-/*--- Navegador y Jumbotron ---*/
+/*--- NAVEGADOR Y JUMBOTRON ---*/
 
 .navbar .navbar-brand img {
     width: 200px;
@@ -17,6 +18,15 @@ body {
  .navbar .navbar-collapse .nav-link {
      color: #005385;
      letter-spacing: 0.1em;
+ }
+
+ .idioma{
+     color: #005385;
+     letter-spacing: 0.1em;
+ }
+
+ .idioma:hover{
+     color: rgba(0,0,0,.7);
  }
 
 .jumbotron{
@@ -60,7 +70,7 @@ body {
     font-weight: 400;
 }
 
-/*--- Contenido principal ---*/
+/*--- CONTENIDO PRINCIPAL ---*/
 
 main {
     /*border-bottom: 1px solid #cbcbcb;*/
